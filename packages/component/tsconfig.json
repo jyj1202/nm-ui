@@ -1,0 +1,12 @@
+{
+  "include": ["./**/*"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "baseUrl": ".",
+    // "paths": {
+    //   "@/*": ["./*"]
+    // }
+  }
+}

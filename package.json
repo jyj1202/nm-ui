@@ -1,0 +1,14 @@
+{
+  "author": "jyj1202",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "docs:dev": "pnpm run -C docs dev"
+  },
+  "dependencies": {
+    "element-plus": "^2.4.2"
+  },
+  "devDependencies": {
+    "vue": "^3.3.9"
+  }
+}
