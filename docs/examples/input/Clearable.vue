@@ -17,7 +17,8 @@ const formOption = reactive({
     {
       label:'输入框',
       prop:'input',
-      type:'input'
+      type:'input',
+      clearable: true
     },
     {
       label:'输入框',

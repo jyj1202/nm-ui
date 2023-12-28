@@ -17,7 +17,7 @@ const formOption = reactive({
     {
       label:'输入框',
       prop:'input',
-      type:'input'
+      type:'textarea',
     },
     {
       label:'输入框',

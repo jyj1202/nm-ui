@@ -6,9 +6,12 @@
     "docs:dev": "pnpm run -C docs dev"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "element-plus": "^2.4.2"
   },
   "devDependencies": {
+    "@types/node": "^20.10.3",
+    "sass": "^1.69.5",
     "vue": "^3.3.9"
   }
 }

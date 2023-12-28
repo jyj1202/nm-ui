@@ -1,4 +1,18 @@
+import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import "./custom.css";
+import ElementPlus from 'element-plus'
 
-export default DefaultTheme
+import { globalComponents } from "../components";
+import "./custom.css";
+import "../styles/index.scss";
+
+export default {
+  extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.use(ElementPlus)
+
+    globalComponents.forEach(([name, Comp]) => {
+      app.component(name, Comp)
+    })
+  }
+} satisfies Theme

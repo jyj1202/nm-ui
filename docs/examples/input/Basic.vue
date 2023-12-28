@@ -6,20 +6,20 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref } from "vue"
+import { reactive, ref, computed } from "vue"
 import { NmForm } from '@jyj/nm-ui'
 
 const formData = ref({})
 const formOption = reactive({
   column: [
     {
-      label:'输入框',
-      prop:'input',
+      label: 'input1',
+      prop:'input1',
       type:'input'
     },
     {
-      label:'输入框',
-      prop:'input1'
+      label:'input2',
+      prop:'input2'
     }
   ]
 })

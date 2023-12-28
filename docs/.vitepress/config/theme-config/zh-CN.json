@@ -1,0 +1,56 @@
+{
+  "nav": [
+    { "text": "指南", "link": "/zh-CN/guide/introduction" },
+    {
+      "text": "组件",
+      "activeMatch": "/zh-CN/component/",
+      "items": [
+        {
+          "text": "element 二次封装组件",
+          "link": "/zh-CN/component/form/input"
+        },
+        {
+          "text": "web component",
+          "link": "/zh-CN/component/web-component"
+        }
+      ]
+    },
+    { "text": "vitepress", "link": "/vitepress/markdown-examples" }
+  ],
+  "sidebar": {
+    "/vitepress/": [
+      {
+        "text": "Examples",
+        "items": [
+          {
+            "text": "Markdown Examples",
+            "link": "/vitepress/markdown-examples"
+          },
+          { "text": "Runtime API Examples", "link": "/vitepress/api-examples" }
+        ]
+      }
+    ],
+    "/zh-CN/guide/": [
+      { "text": "简介", "link": "/zh-CN/guide/introduction" },
+      { "text": "快速开始", "link": "/zh-CN/guide/quick-start" }
+    ],
+    "/zh-CN/component/": [
+      {
+        "text": "属性文档",
+        "items": [
+          { "text": "Form", "link": "/zh-CN/component/form/" },
+          { "text": "Input 输入框", "link": "/zh-CN/component/form/input" },
+          {
+            "text": "Input Number 数字输入框",
+            "link": "/zh-CN/component/form/input-number"
+          },
+          { "text": "Select 选择器", "link": "/zh-CN/component/form/select" },
+          {
+            "text": "Checkbox 多选框",
+            "link": "/zh-CN/component/form/checkbox"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "zh-CN": {
+    "copy-error": "复制失败",
+    "copy-success": "复制成功",
+    "copy-code": "复制代码",
+    "delete-success": "删除成功",
+    "delete-error": "删除失败",
+    "delete-confirm": "确定删除吗？",
+    "delete-cancel": "取消删除",
+    "edit-success": "编辑成功",
+    "view-source": "查看源码",
+    "hide-source": "隐藏源码",
+    "input": "输入框"
+  },
+  "ja": {
+    "copy-error": "コピーに失敗しました",
+    "copy-success": "コピーが成功しました",
+    "copy-code": "コードをコピー",
+    "delete-success": "削除が成功しました",
+    "delete-error": "削除に失敗しました",
+    "delete-confirm": "削除しますか？",
+    "delete-cancel": "削除をキャンセル",
+    "edit-success": "編集が成功しました",
+    "view-source": "ソースを表示",
+    "hide-source": "ソースを非表示",
+    "input": "入力フィールド"
+  },
+  "en-US": {
+    "copy-error": "Copy failed",
+    "copy-success": "Copy successful",
+    "copy-code": "Copy code",
+    "delete-success": "Delete successful",
+    "delete-error": "Delete failed",
+    "delete-confirm": "Are you sure you want to delete?",
+    "delete-cancel": "Cancel delete",
+    "edit-success": "Edit successful",
+    "view-source": "View source code",
+    "hide-source": "Hide source code",
+    "input": "Input Box"
+  }
+}

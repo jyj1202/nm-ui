@@ -1,0 +1,43 @@
+{
+  "nav": [
+    { "text": "Guide", "link": "/en-US/guide/introduction" },
+    {
+      "text": "Components",
+      "activeMatch": "/en-US/component/",
+      "items": [
+        {
+          "text": "Element Plus Components",
+          "link": "/en-US/component/form/input"
+        },
+        {
+          "text": "Web Component",
+          "link": "/en-US/component/web-component"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/en-US/guide/": [
+      { "text": "Introduction", "link": "/en-US/guide/introduction" },
+      { "text": "Quick Start", "link": "/en-US/guide/quick-start" }
+    ],
+    "/en-US/component/": [
+      {
+        "text": "Attribute Documentation",
+        "items": [
+          { "text": "Form", "link": "/en-US/component/form/" },
+          { "text": "Input Box", "link": "/en-US/component/form/input" },
+          {
+            "text": "Input Number Box",
+            "link": "/en-US/component/form/input-number"
+          },
+          { "text": "Selector", "link": "/en-US/component/form/select" },
+          {
+            "text": "Checkbox",
+            "link": "/en-US/component/form/checkbox"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 import type { JFormOptionType } from "../typings";
 
-export const defaultConfig: Record<keyof Omit<JFormOptionType, 'column'>, any> = {
+export const defaultConfig: Partial<Omit<JFormOptionType, 'column'>> = {
   size: 'default',
   labelWidth: 130,
-  // labelPosition: 'left',
+  labelPosition: 'right',
   labelSuffix: '：',
   // gutter: 30,
   span: 12,

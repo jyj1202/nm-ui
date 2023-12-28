@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "types": "./typings/index.d.ts",
   "dependencies": {
     "@nm-ui/utils": "workspace:^"
   },
