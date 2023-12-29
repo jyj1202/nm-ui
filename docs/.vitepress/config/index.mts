@@ -10,6 +10,7 @@ export default defineConfig({
   title: "NM UI",
   description: "二次封装element plus部分组件；常见业务组件封装",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  base: '/nm-ui',
   markdown: {
     config: (md) => mdPlugin(md),
   },

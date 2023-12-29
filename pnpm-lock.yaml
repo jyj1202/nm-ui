@@ -46,6 +46,9 @@ importers:
       consola:
         specifier: ^3.2.3
         version: 3.2.3
+      escape-html:
+        specifier: ^1.0.3
+        version: 1.0.3
       markdown-it-container:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1055,7 +1058,6 @@ packages:
 
   /escape-html@1.0.3:
     resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
-    dev: false
 
   /estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
