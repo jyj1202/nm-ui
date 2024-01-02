@@ -16,7 +16,7 @@ export default defineConfig({
   },
   locales: {
     root: { label: '简体中文', link: '/zh-CN/', themeConfig: zhCNThemeConfig },
-    ja: { label: '日本語', link: '/ja/', themeConfig: jaThemeConfig },
+    ja: { label: '日本語', link: '/ja-JP/', themeConfig: jaThemeConfig },
     es: { label: 'English', link: '/en-US/', themeConfig: enUSThemeConfig },
   },
 

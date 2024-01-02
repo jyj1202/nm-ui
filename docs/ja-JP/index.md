@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: クイックスタート
-      link: /ja/guide/introduction
+      link: /ja-JP/guide/introduction
     - theme: alt
       text: コンポーネントドキュメント
-      link: /ja/component/form/
+      link: /ja-JP/component/form/
 
 features:
   - title: Element Plusの再封装

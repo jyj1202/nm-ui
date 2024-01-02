@@ -1,40 +1,40 @@
 {
   "nav": [
-    { "text": "ガイド", "link": "/ja/guide/introduction" },
+    { "text": "ガイド", "link": "/ja-JP/guide/introduction" },
     {
       "text": "コンポーネント",
-      "activeMatch": "/ja/component/",
+      "activeMatch": "/ja-JP/component/",
       "items": [
         {
           "text": "Element 二次封装コンポーネント",
-          "link": "/ja/component/form/input"
+          "link": "/ja-JP/component/form/input"
         },
         {
           "text": "Web コンポーネント",
-          "link": "/ja/component/web-component"
+          "link": "/ja-JP/component/web-component"
         }
       ]
     }
   ],
   "sidebar": {
-    "/ja/guide/": [
-      { "text": "概要", "link": "/ja/guide/introduction" },
-      { "text": "クイックスタート", "link": "/ja/guide/quick-start" }
+    "/ja-JP/guide/": [
+      { "text": "概要", "link": "/ja-JP/guide/introduction" },
+      { "text": "クイックスタート", "link": "/ja-JP/guide/quick-start" }
     ],
-    "/ja/component/": [
+    "/ja-JP/component/": [
       {
         "text": "属性ドキュメント",
         "items": [
-          { "text": "Form", "link": "/ja/component/form/" },
-          { "text": "Input 入力ボックス", "link": "/ja/component/form/input" },
+          { "text": "Form", "link": "/ja-JP/component/form/" },
+          { "text": "Input 入力ボックス", "link": "/ja-JP/component/form/input" },
           {
             "text": "Input Number 数字入力ボックス",
-            "link": "/ja/component/form/input-number"
+            "link": "/ja-JP/component/form/input-number"
           },
-          { "text": "Select セレクタ", "link": "/ja/component/form/select" },
+          { "text": "Select セレクタ", "link": "/ja-JP/component/form/select" },
           {
             "text": "Checkbox チェックボックス",
-            "link": "/ja/component/form/checkbox"
+            "link": "/ja-JP/component/form/checkbox"
           }
         ]
       }
