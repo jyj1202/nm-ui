@@ -3,9 +3,12 @@
   "private": true,
   "license": "ISC",
   "scripts": {
+    "dev": "pnpm -C play dev",
     "docs:dev": "pnpm run -C docs dev",
     "docs:build": "pnpm run -C docs build",
-    "docs:preview": "pnpm run -C docs preview"
+    "docs:preview": "pnpm run -C docs preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -14,6 +17,8 @@
   "devDependencies": {
     "@types/node": "^20.10.3",
     "sass": "^1.69.5",
+    "typescript": "~5.7.2",
+    "vitest": "^2.1.1",
     "vue": "^3.3.9"
   }
 }
