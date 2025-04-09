@@ -11,7 +11,8 @@
   "license": "ISC",
   "types": "./typings/index.d.ts",
   "dependencies": {
-    "@nm-ui/utils": "workspace:^"
+    "@nm-ui/utils": "workspace:^",
+    "@jyj/nm-icons": "workspace:^"
   },
   "peerDependencies": {
     "vue": "^3.3.4"

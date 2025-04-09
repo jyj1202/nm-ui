@@ -3,7 +3,7 @@
   "private": true,
   "license": "ISC",
   "scripts": {
-    "dev": "pnpm -C play dev",
+    "play": "pnpm -C play dev",
     "docs:dev": "pnpm run -C docs dev",
     "docs:build": "pnpm run -C docs build",
     "docs:preview": "pnpm run -C docs preview",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^13.0.0",
     "element-plus": "^2.4.2"
   },
   "devDependencies": {

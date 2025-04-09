@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import 'virtual:uno.css'
 
 type ComponentModule = Record<string, () => Promise<{ default: any }>>;
 
